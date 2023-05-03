@@ -24,6 +24,13 @@
     margin: 10%;
 }
 
+.navbar .elem a {
+    border-radius: 10px;
+    padding: 20%;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
 a {
     text-decoration: none;
     color:white;
@@ -35,4 +42,9 @@ a {
 
 .navbar .user-elem{
     padding-left: 100%;
+}
+
+.navbar .elem:hover a{
+    background-color: white;
+    color: #1a202c;
 }
