@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar {
+    background-color: #1a202c;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li {
+    margin: 10%;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.navbarElem .logo-elem {
+    padding-right: 100%;
+}
+
+.navbar .user-elem{
+    padding-left: 100%;
+}
