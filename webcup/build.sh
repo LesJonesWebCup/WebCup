@@ -1,3 +1,5 @@
 #!/bin/bash
 
-react-scripts build && cp -r build/* ~/public_html
+LOGO="ETIB"
+
+react-scripts build && figlet $LOGO && cp -r build/* ~/public_html
