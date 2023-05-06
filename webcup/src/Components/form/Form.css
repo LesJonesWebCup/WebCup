@@ -1,0 +1,32 @@
+
+.Form{
+    background-color: #16161a;
+}
+
+.Submit {
+    margin-left: 500%px;
+    background-color: gray;
+    font-size: 120%;
+}
+
+.Form label {
+    font-family: Cove;
+    font-size: 120%;
+    color: #7f5af0;
+    margin-right: 50%;
+}
+
+.Form input {
+    background-color: gray;
+    margin-left: 50px;
+    color: #cccca9 ;
+    font-size: 120%;
+}
+
+.Form form {
+    color: #7f5af0;
+    font-family: Cove;
+    font-size: 120%;
+    margin-top: 50px;
+    margin-left: 650px;
+}
