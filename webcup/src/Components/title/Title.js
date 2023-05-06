@@ -1,6 +1,9 @@
 
 import React from "react";
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+
 import "./Title.css"
+import { width } from "@mui/system";
 
 function revealQuote(isFirstTime) {
     const quote = document.getElementById("quote");
@@ -38,12 +41,13 @@ function getQuote() {
 
 function Title() {
     return (
-      <div className="Title">
+      <div className="Title container">
         <h1>We are here for your <br /> <span>Artificial Intelligence</span> <br />Startup</h1>
         <span id="quote" className="quote-idle">
           <p>
             "{getQuote()}"
           </p>
+        <p className="arrow">&#8595;</p>
         </span>
       </div>
     );

@@ -20,7 +20,15 @@
     }
 
     .Title h1 span {
-        color: darkblue;
+        color: purple;
+    }
+
+    .Title .arrow {
+        color: white;
+        font-size: 200%;
+        text-align: center;
+        padding-bottom: 500px;
+        font-style:normal !important;
     }
 }
 

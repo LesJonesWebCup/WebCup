@@ -1,0 +1,36 @@
+@import url(//db.onlinewebfonts.com/c/2f56ec659663c922a1a776c3a3760529?family=Ginra+Sans);
+
+.description {
+    background-image: url("/pain.jpeg");
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: auto;
+    height: 100vh;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+}
+
+.slo-left, .slo-right {
+    flex: 50%;
+    font-size: 300%;
+    font-style: italic;
+    font-family: "Ginra Sans";
+}
+
+.slo-left h3 {
+    margin: 45% 40% 10% 15%;
+}
+
+.slo-right h3 {
+    margin: 35% 15% 10% 40%;
+}
+
