@@ -1,0 +1,59 @@
+@import url(//db.onlinewebfonts.com/c/2f56ec659663c922a1a776c3a3760529?family=Ginra+Sans);
+
+.Title {
+    background-image: url("/background.png");
+    justify-content: center;
+    vertical-align: auto;
+    height: 100vh;
+}
+
+
+@layer one {
+    .Title h1 {
+        position:relative;
+        z-index: 1;
+        padding-top: 400px;
+        text-align: center;
+        font-size: 300%;
+        font-family: "Ginra Sans";
+        color: white;
+    }
+
+    .Title h1 span {
+        color: purple;
+    }
+
+    .Title .arrow {
+        color: white;
+        font-size: 200%;
+        text-align: center;
+        padding-bottom: 500px;
+        font-style:normal !important;
+    }
+}
+
+@layer two {
+
+    .Title #quote p {
+        text-align: center;
+        color: white;
+        font-size: 200%;
+        font-style: italic;
+        transform: translate(0, 10vh);
+        transition: all 1s;
+    }
+    .Title .quote-idle p {
+        position: relative;
+        opacity: 0;
+    }
+    .Title .quote-disappear p{
+        position:relative;
+        opacity: 0;
+        transform: translate(0, 10vh);
+    }
+
+    .quote-appear {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}

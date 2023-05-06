@@ -1,0 +1,9 @@
+
+.holster {
+    position: relative;
+    scroll-snap-type: both mandatory;
+}
+
+.container {
+    scroll-snap-align: start;
+}

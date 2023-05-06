@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Head {
+    height: 200px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.Head h1 {
+    color:blueviolet;
+}

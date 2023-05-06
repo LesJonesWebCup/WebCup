@@ -1,0 +1,62 @@
+@import url(//db.onlinewebfonts.com/c/2f56ec659663c922a1a776c3a3760529?family=Ginra+Sans);
+
+.header {
+    margin-left: 300px;
+    margin-top: 60px;
+
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(184, 184, 184, 0.7);
+}
+
+.description h3 {
+    color: white;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    font-family: 'Readex Pro', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 74px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+svg {
+    margin-top: -30px;
+    margin-left: 255px;
+}
+
+.description p {
+
+    width: 786.37px;
+    height: 105.16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+
+    /* Secondary title color */
+    color: #B8B8B8;
+}
+
+.element-sep {
+}
