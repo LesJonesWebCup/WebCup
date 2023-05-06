@@ -1,4 +1,3 @@
 #!/bin/bash
 
-npm run build
-cp -r build/* ~/public_html
+react-scripts build && cp -r build/* ~/public_html
