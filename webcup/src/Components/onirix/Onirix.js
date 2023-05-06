@@ -24,7 +24,7 @@ export default function Onirix() {
                 <p>Les créateurs d'Onirix ont cherché à maximiser son efficacité en utilisant des techniques innovantes pour améliorer sa vitesse de traitement et sa capacité à traiter des données de manière rapide et précise.
                     Ils ont optimisé les algorithmes d'Onirix pour minimiser le temps de réponse et ont utilisé des outils avancés pour accélérer la vitesse de traitement.</p>
                 <div className="bg-shape"></div>
-                <img src="/part_three.jpeg" alt=""/>
+                <img src="/part_three.png" alt=""/>
             </div>            
         </div>
     )
