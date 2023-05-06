@@ -3,7 +3,7 @@ import "./intro.css"
 
 function Intro() {
     return (
-        <div className="description container">
+        <div className="intro container">
             <div className="slo-left">
                 <h3>"Osez rêver, réalisez votre destinée."</h3>
                 </div>

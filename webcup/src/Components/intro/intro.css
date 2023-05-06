@@ -1,6 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/2f56ec659663c922a1a776c3a3760529?family=Ginra+Sans);
 
-.description {
+.intro{
     background-image: url("/pain.jpeg");
     background-position: center;
     background-color: black;
@@ -12,7 +12,7 @@
     height: 100vh;
 }
 
-.description {
+.intro{
     display: flex;
     flex-direction: row;
     color: white;
