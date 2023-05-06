@@ -13,10 +13,8 @@ function App() {
   return (
     <Router>
       <div>
-        <Header />
         <Route exact path="/" component={Home} />
         <Route path="quoicouvre" component={About} />
-        <Footer />
       </div>
     </Router>
   )
