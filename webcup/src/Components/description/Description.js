@@ -9,7 +9,7 @@ export default function Description() {
     }, []);
     return (
         <div id="About" data-aos="fade-right" data-aos-duration="2000" className="description">
-            <span className="header">AI program</span>
+            <span className="header">Programme IA</span>
             <h3>Qui sommes-nous ?</h3>
             <svg width="1205" height="2" viewBox="0 0 1205 2" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="1.42993" x2="1205" y2="1.42993" stroke="url(#paint0_linear_2302_1092)"/>

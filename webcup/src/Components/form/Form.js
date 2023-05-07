@@ -20,7 +20,7 @@ export default function Form() {
     }
     return (
 	<div id="Try" className='form'>
-        <h2 className='header'>Try it yourself !</h2>
+        <h2 className='header'>Essayez vous même</h2>
 
         <Card
             sx={{
