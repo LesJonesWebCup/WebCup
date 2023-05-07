@@ -21,3 +21,10 @@
 .card-output {
     display:none;
 }
+
+.header {
+    background: -webkit-linear-gradient(#8093FF, #66FFE5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}

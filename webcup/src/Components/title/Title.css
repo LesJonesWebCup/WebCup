@@ -20,14 +20,16 @@
     }
 
     .Title h1 span {
-        color: purple;
+        background: -webkit-linear-gradient(#8093FF, #66FFE5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .Title .arrow {
         color: white;
         font-size: 200%;
         text-align: center;
-        padding-bottom: 500px;
+        padding-bottom: 400px;
         font-style:normal !important;
     }
 }
