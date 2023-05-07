@@ -18,6 +18,18 @@
     margin-bottom: 50px;
 }
 
-.card-output {
-    display:none;
+.radioTitle {
+    margin: 0 100px;
+    margin-top: 50px;
+}
+.radio-legend {
+    margin: 0 100px;
+}
+
+.radio-1 {
+    transform: translateX(-500px);
+}
+
+.radio-2 {
+    margin-left: 50px;
 }

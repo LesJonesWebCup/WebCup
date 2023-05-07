@@ -14,7 +14,9 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "node-sass": "^8.0.0",
+    "openai": "^3.2.1",
     "react": "^18.2.0",
+    "react-chatgpt": "^0.0.1",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.11.0",
@@ -22,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "./build.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
