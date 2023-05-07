@@ -40,3 +40,9 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 200%;
+    }
+}

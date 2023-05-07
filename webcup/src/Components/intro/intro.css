@@ -34,3 +34,21 @@
     margin: 35% 15% 10% 40%;
 }
 
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .slo-left, .slo-right {
+        flex: 100%;
+        font-size: 200%;
+    }
+
+    .slo-left h3 {
+        margin: 10% 10% 10% 10%;
+    }
+
+    .slo-right h3 {
+        margin: 10% 10% 10% 10%;
+    }
+}

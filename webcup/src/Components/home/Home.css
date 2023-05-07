@@ -7,3 +7,10 @@
 .container {
     scroll-snap-align: start;
 }
+
+@media (max-width: 768px) {
+    .holster {
+        scroll-snap-type: none;
+    }
+}
+    

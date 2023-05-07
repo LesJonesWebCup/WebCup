@@ -16,3 +16,9 @@
     color:aliceblue;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .credits p {
+        font-size: 50%;
+    }
+}

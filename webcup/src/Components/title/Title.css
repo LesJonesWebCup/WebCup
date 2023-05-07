@@ -59,3 +59,31 @@
         transform: translate(0, 0);
     }
 }
+
+@media (max-width: 768px) {
+    .Title {
+        background-image: url("/background-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+
+    @layer one {
+        .Title h1 {
+            padding-top: 200px;
+            font-size: 200%;
+        }
+
+        .Title .arrow {
+            padding-bottom: 200px;
+            font-size: 150%;
+        }
+    }
+
+    @layer two {
+        .Title #quote p {
+            font-size: 150%;
+        }
+    }
+}

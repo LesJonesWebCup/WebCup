@@ -67,3 +67,27 @@ svg {
     margin-top: -30px;
     margin-left: 255px;
 }
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 200%;
+    }
+
+    .description h3 {
+        font-size: 200%;
+    }
+
+    .description p {
+        font-size: 100%;
+    }
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .down {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -57,3 +57,66 @@ img {
     width: 80%;
     height: 100%;
 }
+
+@media (max-width: 768px) {
+    .onirix {
+        background-color: black;
+        color: white;
+    }
+
+    .phase {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        width: 95px;
+        height: 26px;
+        font-family: 'ABeeZee';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+
+        color: rgba(184, 184, 184, 0.7);
+    }
+
+    h2 {
+        margin-left: 0px;
+        margin-top: -5px;
+        margin-bottom: 30px;
+        width: 932px;
+        height: 74px;
+        font-family: 'ABeeZee';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 74px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #F4F4F4;
+    }
+
+    .onirix-part p {
+        margin-left: 0px;
+        text-align: left;
+        width: 763px;
+        height: 72px;
+        font-family: 'ABeeZee';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #B8B8B8;
+    }
+
+    img {
+        margin-left: 0px;
+        width: 80%;
+        height: 100%;
+    }
+    
+}
