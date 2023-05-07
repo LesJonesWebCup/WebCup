@@ -1,0 +1,23 @@
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card-input {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-button {
+    margin: 20px;
+}
+.input {
+    margin-bottom: 50px;
+}
+
+.card-output {
+    display:none;
+}

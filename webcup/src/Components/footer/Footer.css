@@ -1,0 +1,18 @@
+.footer {
+    background-color: black;
+    height: 50px;
+}
+
+.credits {
+    /* align vertically; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.credits p {
+    color:aliceblue;
+    text-align: center;
+}
