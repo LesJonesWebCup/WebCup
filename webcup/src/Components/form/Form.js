@@ -3,8 +3,10 @@ import Button from '@mui/material/Button';
 import Input from "@mui/material/Input";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Radio from '@mui/material/Radio';
 import CardActions from '@mui/material/CardActions';
-import { FormControl, FormLabel, TextField } from '@mui/material';
+import { FormControl, FormLabel, RadioGroup, TextField } from '@mui/material';
 import "./Form.css"
 
 function print_msg()
@@ -17,8 +19,8 @@ export default function Form() {
         textAlign: "center",
     }
     return (
-	<div className='form'>
-        <h2>Try it yourself !</h2>
+	<div id="Try" className='form'>
+        <h2 className='header'>Try it yourself !</h2>
 
         <Card
             sx={{
@@ -44,6 +46,16 @@ export default function Form() {
                     {/* Firstname Input */}
                     <FormLabel component="legend">Prénom:</FormLabel>
                     <Input className='input' id="firstname" name="firstname" placeholder="First Name" />
+                    
+                    <RadioGroup style={{paddingLeft: Audio}} className='input'>
+                        <FormControlLabel className='input' value="rêve" control={<Radio />} label="rêve" />
+                        <FormControlLabel className='input' value="cauchemar" control={<Radio />} label="cauchemar" />
+                            <FormLabel value="disabled"
+                            disabled
+                            control={<Radio />}
+                            >
+                            </FormLabel>
+                    </RadioGroup>
 
                     {/* Description of the dream input */}
                     <FormLabel component="legend">Description du psyché:</FormLabel>
@@ -58,6 +70,7 @@ export default function Form() {
                 <CardActions className='card-actions'>
                     <Button className='card-button' variant="contained" onClick={print_msg}>Submit</Button>
                 </CardActions>
+                    <Button className='card-button'variant="contained" href='#Home'>HOME</Button>
             </FormControl>
         </Card>
 	</div>

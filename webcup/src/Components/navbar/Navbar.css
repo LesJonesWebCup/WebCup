@@ -1,7 +1,7 @@
 
 @layer four {
     .navbar {
-        background-color: #1a202c;
+        background-color: #1D1D1D;
         height: 80px;
         width: 100%;
         display: flex;
@@ -38,7 +38,7 @@
     }
     
     .navbarElem .logo-elem {
-        padding-right: 100%;
+        padding-right: 200%;
     }
     
     .navbar .user-elem{
