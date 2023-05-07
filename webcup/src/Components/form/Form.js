@@ -40,13 +40,14 @@ export default function Form() {
                     <FormLabel component="legend">Nom:</FormLabel>
                     <Input style={{align}} className='input' id="name" name="name" placeholder="Name" />
 
+                                        {/* Firstname Input */}
+                    <FormLabel component="legend">Prénom:</FormLabel>
+                    <Input className='input' id="firstname" name="firstname" placeholder="First Name" />
+
                     <FormLabel component="legend">Âge</FormLabel>
                     <Input className='input' id='age' name="age" placeholder="Age"></Input>
 
-                    {/* Firstname Input */}
-                    <FormLabel component="legend">Prénom:</FormLabel>
-                    <Input className='input' id="firstname" name="firstname" placeholder="First Name" />
-                    
+
                     <RadioGroup style={{paddingLeft: Audio}} className='input'>
                         <FormControlLabel className='input' value="rêve" control={<Radio />} label="rêve" />
                         <FormControlLabel className='input' value="cauchemar" control={<Radio />} label="cauchemar" />
