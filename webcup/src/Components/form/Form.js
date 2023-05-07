@@ -84,7 +84,8 @@ function promiseState(p) {
 
 const { Configuration, OpenAIApi } = require('openai');
 //require('dotenv').config();
-const api_key = "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";
+//const api_key = "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";
+const api_key = process.env.REACT_APP_API_KEY
 async function get_completion(message) {
     const configuration = new Configuration({
     apiKey: api_key,
