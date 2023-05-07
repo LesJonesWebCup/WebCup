@@ -5,11 +5,16 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import { FormControl, FormLabel, TextField } from '@mui/material';
+import { ChatGPTAPI } from 'chatgpt'
 import "./Form.css"
 
-function print_msg()
-{
-    console.log("Hello World");
+async function example() {
+  const api = new ChatGPTAPI({
+    apiKey: process.env.OPENAI_API_KEY
+  })
+
+  const res = await api.sendMessage('Hello World!')
+  console.log(res.text)
 }
 
 export default function Form() {
@@ -56,7 +61,7 @@ export default function Form() {
 
                 {/* Submit button */}
                 <CardActions className='card-actions'>
-                    <Button className='card-button' variant="contained" onClick={print_msg}>Submit</Button>
+                    <Button className='card-button' variant="contained" onClick={example}>Submit</Button>
                 </CardActions>
             </FormControl>
         </Card>
